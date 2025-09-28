@@ -39,6 +39,13 @@ This course is structured as a hands-on learning experience with theory, practic
 - [Lesson 14: Log Processing](./module5/lesson14-log-processing/README.md)
 - [Lesson 15: Automation Scripts](./module5/lesson15-automation/README.md)
 
+### 🎯 Capstone Project
+- [**System Health Monitor & Log Analyzer**](./capstone-project/README.md)
+  - Apply all learned concepts in a real-world project
+  - Build a production-ready monitoring tool
+  - Step-by-step implementation with complete solution
+  - **Estimated time: 3 hours**
+
 ## How to Use This Course
 
 1. Clone this repository to your Amazon Linux 2023 instance
@@ -46,7 +53,8 @@ This course is structured as a hands-on learning experience with theory, practic
 3. Follow the README in each lesson directory
 4. Run the demo scripts provided
 5. Complete the exercises
-6. Troubleshoot using the provided guides
+6. **Finish with the Capstone Project**
+7. Troubleshoot using the provided guides
 
 ## Quick Start
 
@@ -61,7 +69,32 @@ find . -name "*.sh" -exec chmod +x {} \;
 # Start with the first lesson
 cd module1/lesson1-intro
 cat README.md
+./demo.sh
+
+# After completing all modules, do the capstone project
+cd ../../capstone-project
+cat README.md
+./setup_project.sh
 ```
+
+## Course Progression
+
+```
+Beginner → Intermediate → Advanced → Expert
+   ↓           ↓            ↓         ↓
+Module 1 → Module 2 → Module 3 → Module 4 → Module 5 → 🎯 Capstone
+```
+
+## What You'll Build
+
+By the end of this course, you'll have created:
+- Multiple practice scripts demonstrating each concept
+- **A complete system monitoring application** with:
+  - Real-time system health monitoring
+  - Log analysis and alerting
+  - Interactive menu system
+  - Automated report generation
+  - Production-ready code structure
 
 ## Support
 
